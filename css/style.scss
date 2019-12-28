@@ -1,0 +1,45 @@
+$text_color: black;
+$margin_right: 30px;
+$font_family: Montserrat,sans-serif;
+
+
+nav{ 
+    .logo{
+        margin: -10px;
+        margin-right: 40px;
+    }
+    .menu{
+     ul{ 
+     li {
+    display: inline !important;
+    margin-right: $margin_right;
+    a{
+        color: $text_color;
+        font-family: $font_family;
+        font-size: 15px;
+    }
+    
+}
+}
+}
+.search{
+    margin-right: $margin_right;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+.shopping_bag{
+    i{
+    margin-right: $margin_right;
+    font-size: 17px;
+    cursor: pointer;
+    }
+    a{
+        color: $text_color;
+        font-family: $font_family;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+}
+}
